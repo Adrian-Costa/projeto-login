@@ -17,13 +17,24 @@
                 <img src="imagens/pexels-anni-roenkae-2832432.jpg" alt="">
             </div>
 
-            <div id="formulário">
+            <div id="formulario">
                 <h1>Login</h1>
 
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder faazer as configurações no seu ambiente</p>
+                <p id="sbv"><strong> Seja bem-vindo(a) novamente.</strong></p><br>
+                <p>Faça login para acessar sua conta <br>
+                e poder faazer as configurações <br>
+                no seu ambiente</p>
 
-                <form action="" method="get">
+                <form action="" method="get" autocomplete="on">
+                    <div class="fi"><label for="iemail">E-Mail:</label>
+                    <input type="email" name="email" id="iemail"></div> <br>
 
+                    <div class="fi"><label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" min="8" max="15" size="21"></div> <br>
+
+                    <div class="fi"><input id="entrar" type="submit" value="Entrar"></div>
+
+                    <div class="fi"><a href="#">Esqueceu a senha?</a></div>
                 </form>
             </div>
         </section>
