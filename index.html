@@ -6,20 +6,41 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="estilos/style.css">
+     <link rel="stylesheet" href="estilos/MdQuery.css">
      <title>Login</title>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
  <body>
     <main>
         <section  id="login">
             <div id="imagem">
-
+                <img src="imagens/pexels-anni-roenkae-2832432.jpg" alt="imagem de textura muito bonita">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
+
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
                 <form action="" method="post">
 
+                    <div id="mail">
+                        <label for="iemail"> <span class="material-icons">email</span>
+                        <input type="email" name="email" id="iemail">
+                    </div>
+                    <div id="pass">
+                        <label for="isenha"> <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" min="8">
+                    </div>
+
+                    <br>
+
+                    <input id="entrar" type="submit" value="Entrar">
+
+                    <br>
+
+                    <a id="eas" href="#">Esqueceu a senha?</a>
                 </form>
             </div>
         </section>
