@@ -21,9 +21,11 @@
             <div id="formulario">
                 <h1>Login</h1>
 
-                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p id="pp"><strong>Seja bem vindo(a) novamente!!</strong><p> 
 
-                <form action="" method="post">
+                <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="" method="post" autocomplete="off">
 
                     <div id="mail">
                         <label for="iemail"> <span class="material-icons">email</span>
@@ -31,7 +33,7 @@
                     </div>
                     <div id="pass">
                         <label for="isenha"> <span class="material-icons">key</span>
-                        <input type="password" name="senha" id="isenha" min="8">
+                        <input type="password" name="senha" id="isenha" minlength="8">
                     </div>
 
                     <br>
@@ -40,7 +42,7 @@
 
                     <br>
 
-                    <a id="eas" href="#">Esqueceu a senha?</a>
+                    <p id="eas"><a href="#">Esqueceu a senha?</a></p>
                 </form>
             </div>
         </section>
