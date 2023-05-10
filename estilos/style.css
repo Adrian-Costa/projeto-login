@@ -25,6 +25,9 @@ section#login{
     background-color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.726);
     border-radius: 20px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 img{
     width: 400px;
