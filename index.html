@@ -2,47 +2,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
  <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="estilos/style.css">
      <link rel="stylesheet" href="estilos/MdQuery.css">
      <title>Login</title>
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-</head>
+ </head>
 
  <body>
     <main>
-        <section  id="login">
+        <section id="login">
             <div id="imagem">
-                <img src="imagens/pexels-anni-roenkae-2832432.jpg" alt="imagem de textura muito bonita">
+
             </div>
+
             <div id="formulario">
                 <h1>Login</h1>
 
-                <p id="pp"><strong>Seja bem vindo(a) novamente!!</strong><p> 
-
+                <p>Seja Bem-Vindo(a) Novamente!! </p>
+                
                 <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-                <form action="" method="post" autocomplete="off">
-
-                    <div id="mail">
-                        <label for="iemail"> <span class="material-icons">email</span>
-                        <input type="email" name="email" id="iemail" placeholder="insira seu e-mail">
-                    </div>
-                    <div id="pass">
-                        <label for="isenha"> <span class="material-icons">key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="insira sua senha" minlength="8">
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">email</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Insira seu email" autocomplete="email">
+                        <label for="ilogin">Email:</label>
                     </div>
 
-                    <br>
-
-                    <input id="entrar" type="submit" value="Entrar">
-
-                    <br>
-
-                    <p id="eas"><a href="#">Esqueceu a senha?</a></p>
+                    <div class="campo">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" minlength="8" autocomplete="current-password">
+                        <label for="isenha">Senha:</label>
+                    </div>
                 </form>
             </div>
         </section>
