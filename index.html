@@ -29,15 +29,17 @@
                 <form action="" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-icons">email</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Insira seu email" autocomplete="email">
-                        <label for="ilogin">Email:</label>
+                        <input type="email" name="login" id="ilogin" placeholder="Insira seu email" autocomplete="email" required>
+                        <label for="ilogin">Email</label>
                     </div>
 
                     <div class="campo">
                         <span class="material-icons">key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" minlength="8" autocomplete="current-password">
-                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" minlength="8" autocomplete="current-password" required>
+                        <label for="isenha">Senha</label>
                     </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="botao">Esqueci a senha <span class="material-icons">mail</span></a>
                 </form>
             </div>
         </section>
