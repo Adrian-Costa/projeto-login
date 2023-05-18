@@ -25,8 +25,8 @@ section#login{
     left: 50%;
 
     background-color: white;
-    width: 250px;
-    height: 515px;
+    width: 300px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.848);
@@ -38,7 +38,7 @@ section#login{
 section#login > div#imagem{
     display: block;
     background: rgb(255, 31, 69) url(../imagens/pexels-anni-roenkae-2832432.jpg) no-repeat;
-    height: 190px;
+    height: 280px;
     background-size: cover;
     background-position: center center;
 }
