@@ -25,8 +25,8 @@ section#login{
     left: 50%;
 
     background-color: white;
-    width: 350px;
-    height: 660px;
+    width: 70vw;
+    height: 90vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.848);
